@@ -1,8 +1,8 @@
-# Slides SEMCOMP - 2015
+# Slides IMASTERS RJ - 2015
 
 ## Instalando
 
-[Veja os slides](http://willianjusten.com.br/semcomp-2015/).
+[Veja os slides](http://willianjusten.com.br/imasters-2015/).
 
 Primeiro de tudo, instale as depdências para rodar os slides em sua máquina.
 
@@ -11,8 +11,8 @@ Primeiro de tudo, instale as depdências para rodar os slides em sua máquina.
 
 ```sh
 # Clone o repositório
-$ git clone git://github.com/willianjusten/semcomp-2015
-$ cd semcomp-2015
+$ git clone git://github.com/willianjusten/imasters-2015
+$ cd imasters-2015
 
 # Instale as dependências do Node
 $ npm install
