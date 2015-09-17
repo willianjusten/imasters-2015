@@ -1,7 +1,6 @@
 @import "vendor/reveal"
 @import "vendor/white"
 @import "vendor/zenburn"
-@import "vendor/chartist"
 
 main = #0562dc
 
@@ -13,6 +12,8 @@ main = #0562dc
 	color red
 .yellow
 	color #D0D000
+.black
+	color black !important
 defs
 	display block
 
@@ -49,15 +50,13 @@ defs
 	.sec-slide
 		h1,h2,h3,h4,.text
 			color main
+			font-weight 800
 		hr
 			border-color main
 	.center
 		text-align center
 		display block
 		margin auto
-	.text
-		font-size 1.1em
-		line-height 1.5em
 	.more
 		font-size .8em
 	ul
@@ -65,6 +64,13 @@ defs
 		li
 			font-size .9em
 			line-height 2em
+			
+	.list
+		display block
+		margin-top 40px
+		li
+			font-size 1.4em
+			font-weight 600
 	.col-3
 		display: inline-block
 		width 22%
@@ -74,7 +80,9 @@ defs
 		color white
 		&:hover
 			color #6ca2e8
-
+	.shadow
+		text-shadow: 2px 2px 15px #000;
+		
 .rounded
 	border-radius 50%
 
